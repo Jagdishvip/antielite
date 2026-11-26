@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AntiElite Icon Foreground: precision hexagonal crest enclosing a faceted "A" monogram with a cyan-violet energy slash -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle glow around core -->
+    <path android:pathData="M24,54a30,30 0,1 0,60 0a30,30 0,1 0,-60 0Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="30"
+                android:startColor="#4D38BDF8"
+                android:endColor="#0038BDF8" />
+        </aapt:attr>
+    </path>
+
+    <!-- Inner dark glass hex plate -->
+    <path
+        android:fillColor="#E60B101C"
+        android:pathData="M54,29L75.6,41.5L75.6,66.5L54,79L32.4,66.5L32.4,41.5Z" />
+
+    <!-- Top-to-bottom subtle glass sheen on hex plate -->
+    <path android:pathData="M54,30.8L74.1,42.4L74.1,54L33.9,54L33.9,42.4Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="30.8"
+                android:endX="54"
+                android:endY="54"
+                android:startColor="#24FFFFFF"
+                android:endColor="#00FFFFFF" />
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp gradient hexagonal crest ring (evenOdd outer-minus-inner) -->
+    <path
+        android:fillType="evenOdd"
+        android:pathData="M54,27.5L77,40.8L77,67.2L54,80.5L31,67.2L31,40.8ZM54,30.8L33.9,42.4L33.9,65.6L54,77.2L74.1,65.6L74.1,42.4Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="31"
+                android:startY="28"
+                android:endX="77"
+                android:endY="80">
+                <item android:offset="0" android:color="#FF38BDF8" />
+                <item android:offset="0.5" android:color="#FF818CF8" />
+                <item android:offset="1" android:color="#FFC084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Architectural "A" left facet (bright brushed silver-white) -->
+    <path android:pathData="M54,38L42,66.5L48,66.5L54,50.8Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="42"
+                android:startY="38"
+                android:endX="54"
+                android:endY="66.5"
+                android:startColor="#FFFFFFFF"
+                android:endColor="#FFC8D4E6" />
+        </aapt:attr>
+    </path>
+
+    <!-- Architectural "A" right facet (cooler metallic slate for depth) -->
+    <path android:pathData="M54,38L66,66.5L60,66.5L54,50.8Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="38"
+                android:endX="66"
+                android:endY="66.5"
+                android:startColor="#FFE2E8F0"
+                android:endColor="#FF7C8CA6" />
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp edge highlight along left apex -->
+    <path
+        android:pathData="M54,38L42,66.5"
+        android:strokeColor="#B3FFFFFF"
+        android:strokeWidth="0.6"
+        android:strokeLineCap="round" />
+
+    <!-- Dynamic Elite energy slash cutting across the "A" -->
+    <path android:pathData="M43.2,58.8L64.8,53.2L63.4,57.4L41.8,63Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="41.8"
+                android:startY="60.5"
+                android:endX="64.8"
+                android:endY="54.5">
+                <item android:offset="0" android:color="#FF22D3EE" />
+                <item android:offset="0.5" android:color="#FFFFFFFF" />
+                <item android:offset="1" android:color="#FFA855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

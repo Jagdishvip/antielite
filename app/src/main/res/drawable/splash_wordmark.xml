@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "ANTIELITE" splash wordmark (Android 12+ windowSplashScreenBrandingImage, and the bottom of splash_background.xml).
+     200x80 is the size Android reserves for the splash branding image. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+    <!-- A -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M46.06 46 50.25 34H52.98L57.27 46H54.91L53.88 43.03H49.39L48.41 46ZM49.97 41.3H53.29L52.77 39.77Q52.5 38.94 52.22 37.93Q51.93 36.92 51.59 35.68Q51.27 36.93 51 37.95Q50.72 38.97 50.47 39.77Z" />
+    <!-- N -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M62.27 46V34H64.7L68.84 40.61Q69.17 41.13 69.54 41.82Q69.92 42.5 70.32 43.41Q70.25 42.54 70.22 41.69Q70.19 40.85 70.19 40.3V34H72.38V46H69.93L66.19 40.05Q65.88 39.55 65.59 39.06Q65.32 38.57 65.02 37.99Q64.7 37.41 64.3 36.63Q64.36 37.74 64.41 38.64Q64.45 39.54 64.45 40.04V46Z" />
+    <!-- T -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M77.38 35.81V34H86.92V35.81H83.23V46H81.08V35.81Z" />
+    <!-- I -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M91.92 34H94.08V38.8H91.92ZM91.92 40.36H94.08V46H91.92Z" />
+    <!-- E -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M99.08 46V34H106.88V35.81H101.23V39.05H106.45V40.84H101.23V44.19H106.91V46Z" />
+    <!-- L -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M111.91 46V34H114.06V44.19H119.41V46Z" />
+    <!-- I -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M124.41 34H126.56V38.8H124.41ZM124.41 40.36H126.56V46H124.41Z" />
+    <!-- T -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M131.56 35.81V34H141.11V35.81H137.41V46H135.25V35.81Z" />
+    <!-- E -->
+    <path android:fillColor="#FF9AA0AB" android:pathData="M146.11 46V34H153.91V35.81H148.26V39.05H153.49V40.84H148.26V44.19H153.94V46Z" />
+</vector>
